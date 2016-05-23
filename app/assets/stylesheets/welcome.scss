@@ -1,0 +1,32 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#front-page {
+  position: relative;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#text-container {
+  // position: absolute;
+  margin-top: -62.5%;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: italics;
+}
+
+#title {
+  margin-left: 20%;
+}
+
+#second-title {
+  margin-left: 25%;
+}
+
+#book-link {
+  margin-left: 36.50%;
+}
