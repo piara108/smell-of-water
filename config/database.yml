@@ -11,12 +11,12 @@ default: &default
 
 development:
   # <<: *default
+  # database: db/development.sqlite3
   adapter: postgresql
   encoding: unicode
-  # database: db/development.sqlite3
-  database: smell-of-water_development
+  database: thesmellofwater_development
   pool: 5
-  username: smellofwater
+  username: thesmellofwater
   password: blackfin85
 
 # Warning: The database defined as "test" will be erased and
@@ -27,9 +27,9 @@ test:
   # database: db/test.sqlite3
   adapter: postgresql
   encoding: unicode
-  database: smell-of-water_test
+  database: thesmellofwater_test
   pool: 5
-  username: smellofwater
+  username: thesmellofwater
   password: blackfin85
 
 production:
@@ -37,7 +37,7 @@ production:
   # database: db/production.sqlite3
   adapter: postgresql
   encoding: unicode
-  database: smell-of-water_production
+  database: thesmellofwater_production
   pool: 5
-  username: smellofwater
+  username: thesmellofwater
   password: blackfin85
