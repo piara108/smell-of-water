@@ -2,13 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.menu-bar {
+  height: 50%;
+}
+
 #front-page {
   position: relative;
   width: 100%;
 }
 
-img {
-  height: 100%;
+#splash-image {
+  height: 80%;
   width: 100%;
 }
 
