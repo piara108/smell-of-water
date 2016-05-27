@@ -12,10 +12,9 @@
 /db/*.sqlite3-journal
 
 # Ignore the PostgreSQL database.
-database.yml
+config/database.yml
 
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
-database.yml
