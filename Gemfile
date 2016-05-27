@@ -6,6 +6,9 @@ gem 'rails', '4.2.2'
 
 ruby '2.3.0'
 
+gem 'figaro'
+
+
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 gem 'pg'
