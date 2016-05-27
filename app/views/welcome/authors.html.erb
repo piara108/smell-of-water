@@ -1,11 +1,12 @@
 <div class="title-menu-bar">
   <header class="title-bar">
     <div class="title">
-      <p>
+      <%= link_to "Welcome to\nThe Smell\nof Water", root_path %>
+      <!-- <p>
         Welcome to<br>
         The Smell <br>
         of Water
-      </p>
+      </p> -->
     </div>
   </header>
 
@@ -14,18 +15,18 @@
 
     <nav class="navigation-menu">
       <ul class="links">
-        <li>The Book</li>
-        <li>The Authors</li>
-        <li>Events</li>
-        <li>Books in the Works</li>
-        <li>Contact Us</li>
+        <li><%= link_to "The Book", thebook_url%></li>
+        <li><%= link_to "The Authors", authors_url %><li>
+        <li><%= link_to "Events", events_url %></li>
+        <li><%= link_to "Books in the Works", intheworks_url %></li>
+        <li><%= link_to "Contact Us", contact_url %></li>
       </ul>
     </nav>
 
     <div class="bottom-dash"></div>
 
     <ul class="photos">
-      <li>Photos</li>
+      <li><%= link_to "Photos", photos_url %></li>
     </ul>
 
     <div class="contact-dash"></div>
