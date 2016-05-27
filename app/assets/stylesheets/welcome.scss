@@ -27,12 +27,10 @@ body {
   border: 1px solid;
   border-color: #292f33;;
   background-color: #292f33;
-  // position: left;
 }
 
 .title-bar {
-  margin-bottom: 3em;
-
+  margin-bottom: -5em;
 }
 
 // The text of the title
@@ -86,7 +84,6 @@ body {
 // The links and the images list
 ul {
   width: 10em;
-  // padding: 8px 0 8x 16px;
 
   // border: 2px solid;
   // border-color: white;
@@ -106,11 +103,9 @@ li {
 .contact-dash {
   width: 12em;
 
-  margin-top: 1.5em;
+  margin-top: 3em;
   margin-left: 4em;
-  margin-bottom: 2.5em;
-
-  top: 50%;
+  margin-bottom: 2.25em;
 
   border-bottom : .12em solid;
   border-color: #bbe5e2;
@@ -127,14 +122,45 @@ li {
   width: 40px;
 }
 
+// Div for the body of the splash page
 .body-text {
-  display: inline-block;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
+
+  overflow: auto;
+
+  // border: 5px solid;
+  // border-color: red;
 }
 
-.cover-image {
+// Div for the reviews in the body
+.reviews {
+  margin-top: 6em;
+  margin-left: 2.25em;
+
+  float: center;
+  display:inline-block;
+
+  // border: 5px solid;
+  // border-color: blue;
+}
+
+// Div for image in the body
+.book-image {
   height: 500px;
   width: 332.28px;
 
-  margin-top: 3.75em;
-  margin-left: 35em;
+  margin-top: 1.5em;
+  margin-right: 3em;
+
+  float: right;
+  display: inline-block;
+
+  // border: 5px solid;
+  // border-color: orange;
+}
+
+// Spacing between lines
+p {
+  margin-bottom: 3em;
 }

@@ -32,22 +32,35 @@
 
     <div class="images-block">
       <%= image_tag("email.png", :alt => "email", :class => "image") %>
-      <%= image_tag("facebook.png", :alt => "facebook", :class => "image") %>
+      <a href="https://www.facebook.com/The-Smell-of-Water-571867719588988/?ref=br_rs"><%= image_tag("facebook.png", :alt => "facebook", :class => "image") %></a>
       <%= image_tag("twitter.png", :alt => "twitter", :class => "image") %>
     </div>
   </div>
 </div>
 
 <div class="body-text">
+  <div class="reviews">
+    <p>
+      “Masterfully written.”<br>
+          &emsp;– Andy Martin, Executive Producer of The Monkey Kid,<br>
+          &ensp;&ensp;&emsp;Official Selection of the Cannes International Film Festival (1995)
+    </p>
 
-  <p>
-    “Masterfully written.”
-        – Andy Martin, Executive Producer of The Monkey Kid, Official Selection of the Cannes International Film Festival (1995)
-  </p>
+    <p>
+      “What makes this book stand out from others like it is that the horrors of<br>
+      &emsp;&emsp;war aren't the focus, the boys’ survival is.”
+    </p>
 
-  <%= image_tag("cover-of-sow.jpg", :alt => "cover-image", :class => "cover-image") %>
+    <p>
+      “Not since Unbroken have I read a book with such heart and soul.”
+    </p>
+
+    <p>
+      “Put this book on your ‘must read’ list.”
+    </p>
+  </div>
+
+  <div class="book-image">
+    <%= image_tag("cover-of-sow.png", :alt => "cover-image", :class => "cover-image") %>
+  </div>
 </div>
-
-
-
-<%# link_to("here", "http://www.amazon.com/Smell-Water-twelve-year-old-soldiers-determination/dp/0692407502/ref=sr_1_1?ie=UTF8&qid=1446148539&sr=8-1&keywords=the+smell+of+water", :target => '_blank') %>
