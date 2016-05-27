@@ -18,3 +18,4 @@ database.yml
 /log/*
 !/log/.keep
 /tmp
+database.yml
