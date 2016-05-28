@@ -123,6 +123,8 @@ a:visited {
   border-color: #bbe5e2;
 }
 
+// ========================TheSplashPage========================
+
 // The social media images block
 .images-block {
   margin-left: 6em;
@@ -178,6 +180,59 @@ a:visited {
 }
 
 // Spacing between lines
-p {
+.body-text p {
   margin-bottom: 2.25em;
+}
+
+// ========================TheAuthorspage========================
+
+// Div for the Authors page content
+#authors-info {
+  // height: 100%;
+
+  margin-bottom: -2em;
+
+  // border: 5px solid;
+  // border-color: orange;
+}
+
+// Image of the authors
+#authors-pic {
+  height: 400px;
+  width: 318px;
+
+  padding-top: 1em;
+  padding-left: 1em;
+
+  // margin-top: 1em;
+  // margin-left: 1em;
+
+  float: center;
+  display: inline-block;
+
+  // border: 5px solid;
+  // border-color: blue;
+}
+
+// Text on the Authors page
+#authors-text {
+  // margin-top: 1em;
+  margin-right: 1em;
+
+  float: right;
+  display: inline-block;
+
+  // border: 5px solid;
+  // border-color: red;
+}
+
+#authors-text-cont {
+  margin-top: 1em;
+  margin-left: 21.25em;
+
+  position: absolute;
+  bottom: 3em;
+
+  // border: 5px solid;
+  // border-color: green;
 }
