@@ -145,9 +145,14 @@ a:visited {
   // border-color: red;
 }
 
+#reader-reviews {
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
 // Div for the reviews in the body
 .reviews {
-  margin-top: 6em;
+  margin-top: 2.5em;
   margin-left: 2.25em;
 
   float: center;
@@ -162,7 +167,7 @@ a:visited {
   height: 500px;
   width: 332.28px;
 
-  margin-top: 1.5em;
+  margin-top: 3.5em;
   margin-right: 3em;
 
   float: right;
