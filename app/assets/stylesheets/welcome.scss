@@ -102,12 +102,22 @@ li {
   color: #bbe5e2;
 }
 
-a:link {
+.title-menu-bar:link {
   text-decoration: none;
   color: #bbe5e2;
 }
 
-a:visited {
+.title-menu-bar a:visited {
+  text-decoration: none;
+  color: #bbe5e2;
+}
+
+.photos a:link {
+  text-decoration: none;
+  color: #bbe5e2;
+}
+
+.photos a:visited {
   text-decoration: none;
   color: #bbe5e2;
 }
@@ -141,8 +151,10 @@ a:visited {
   margin-bottom: -5000px;
   padding-bottom: 5000px;
 
+
+
   overflow: auto;
-  
+
   // border: 5px solid;
   // border-color: red;
 }
@@ -222,6 +234,8 @@ a:visited {
   float: right;
   display: inline-block;
 
+  color: #333333;
+
   // border: 5px solid;
   // border-color: red;
 }
@@ -232,6 +246,8 @@ a:visited {
 
   position: absolute;
   bottom: 3em;
+
+  color: #333333;
 
   // border: 5px solid;
   // border-color: green;
@@ -247,10 +263,49 @@ a:visited {
   overflow: hidden;
 }
 
+#contact-pic {
+  float: left;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+}
+
+#caption-tag {
+  color: #333333;
+  text-align: center;
+}
+
 #contact-text {
-  margin-left: 20em;
-  border: 5px solid;
-  border-color: blue;
-  position: fixed;
+  width: 55%;
+
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+
+  color: #333333;
+
+  line-height: 1.50em;
+
+  // margin-top: -1em;
+
+  // margin-left: 20em;
+  // border: 5px solid;
+  // border-color: blue;
+  float: right;
+  // position: fixed;
   bottom: 15em;
+}
+
+#cont-link {
+
+
+
+}
+
+a:link {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #333333;
 }

@@ -1,11 +1,20 @@
 Rails.application.routes.draw do
+
   get 'welcome/index'
-  get 'welcome/authors', to: 'welcome#authors', as: 'authors'
-  get 'welcome/contact', to: 'welcome#contact', as: 'contact'
-  get 'welcome/events', to: 'welcome#events', as: 'events'
-  get 'welcome/thebook', to: 'welcome#thebook', as: 'thebook'
-  get 'welcome/intheworks', to:'welcome#intheworks', as: 'intheworks'
-  get 'welcome/photos', to: 'welcome#photos', as: 'photos'
+  get 'welcome/authors'
+  get 'welcome/contact'
+  get 'welcome/events'
+  get 'welcome/thebook'
+  get 'welcome/intheworks'
+  get 'welcome/photos'
+
+  get '/index', to: 'welcome#index', as: 'index'
+  get '/authors', to: 'welcome#authors', as: 'authors'
+  get '/contact', to: 'welcome#contact', as: 'contact'
+  get '/events', to: 'welcome#events', as: 'events'
+  get '/thebook', to: 'welcome#thebook', as: 'thebook'
+  get '/intheworks', to:'welcome#intheworks', as: 'intheworks'
+  get '/photos', to: 'welcome#photos', as: 'photos'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

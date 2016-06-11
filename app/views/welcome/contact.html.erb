@@ -40,18 +40,18 @@
 </div>
 
 <div id="contact-info">
-  <!-- <div id="contact-pic">
-
-
-  </div> -->
+  <div id="contact-pic">
+    <%= image_tag("contact-pic.jpg", :alt => "contact-img", :class => "contact-image") %>
+    <p id="caption-tag">The authors at Angkor Wat, 2016</p>
+  </div>
 
   <div id="contact-text">
     <p>
       Caption:  The authors at Angkor Wat, 2016. Should be at top of page.
     </p>
 
-    <!-- <p id="contact-text">
-      We’re just a click away, at TheSmellofWaterbyLSrey@gmail.com. We answer all our mail.
+    <p>
+      We’re just a click away, at <%= mail_to("TheSmellofWaterbyLSrey@gmail.com", name = nil, html_options = {:subject => "Hello!"} )%>. We answer all our mail.
     </p>
 
     <p>
@@ -63,10 +63,12 @@
     </p>
 
     <p>
-      If you would like to order Cambodian silk, e-mail Cornelia with what you would like her to<br>
-      bring back for you. She can get ikat (“hol”), brocade (“pamuong” and three kinds of “chorabab”),<br>
-      embroidered organza, and Buddhist ikat tapestries (“pidan”). Scarves, and wraps to go over evening<br>
-      clothes, are our most-requested items. We buy only from the finest weavers, and pay fair trade prices.
-    </p> -->
+      If you would like to order Cambodian silk, e-mail Cornelia with what you
+      would like her to bring back for you. She can get ikat (“hol”), brocade
+      (“pamuong” and three kinds of “chorabab”), embroidered organza, and
+      Buddhist ikat tapestries (“pidan”). Scarves, and wraps to go over evening
+      clothes, are our most-requested items. We buy only from the finest weavers,
+      and pay fair trade prices.
+    </p>
   </div>
 </div>
