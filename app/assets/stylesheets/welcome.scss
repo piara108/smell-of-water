@@ -2,7 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 // =====================Title and Menu Bar======================
+
+// Removes the 'bounce' on the page
+html {
+  overflow: hidden;
+}
 
 // Removes margins on all sides
 body {
@@ -11,7 +17,8 @@ body {
   margin-bottom: 0px;
   margin-left: 0px;
 
-  overflow: hidden;
+  overflow: auto;
+  font-family: "Georgia";
 }
 
 // The entire title and navigation menu bar
@@ -23,10 +30,12 @@ body {
   padding-bottom: 5000px;
 
   float: left;
+  // position: fixed;
 
   border: 1px solid;
   border-color: #292f33;;
   background-color: #292f33;
+  font-family: "Times New Roman";
 }
 
 .title-bar {
@@ -81,6 +90,7 @@ body {
 
 .photos {
   margin-left: 6em;
+  margin-bottom: -1.25em;
 }
 
 // The links and the images list
@@ -304,23 +314,31 @@ a:visited {
 
 // ================================The Book==============================
 
-#thebook-pic {
-  float: left;
-  margin-top: 1.5em;
-  margin-left: 1.5em;
-}
-
 #thebook-content {
   // border: 2px solid blue;
-}
 
-#thebook-text {
-  float: right;
-  width: 43%;
-  // border: 2px solid red;
-  margin-top: .30em;
-  margin-right: 1em;
-  padding: 0 .5em .5em .5em;
-  color: #333333;
-  line-height: 1.5em;
+  overflow: auto;
+
+  // Image for The Book page
+  #thebook-pic {
+    float: left;
+    margin-top: 1.5em;
+    margin-right: -1em;
+    margin-left: 1em;
+  }
+
+  // Body content for The Book page
+  #thebook-text {
+    float: right;
+    width: 55%;
+    margin-top: .30em;
+    // margin-right: 5.25em;
+    padding: 0 .5em .5em .5em;
+    color: #333333;
+    line-height: 1.5em;
+
+    // border: 2px solid red;
+  }
+
+
 }
