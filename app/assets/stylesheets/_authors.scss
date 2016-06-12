@@ -8,6 +8,20 @@
 
   // border: 5px solid;
   // border-color: orange;
+
+  // Text on the Authors page
+  #authors-text {
+    // margin-top: 1em;
+    margin-right: 1em;
+
+    float: right;
+    display: inline-block;
+
+    color: #333333;
+
+    // border: 5px solid;
+    // border-color: red;
+  }
 }
 
 // Image of the authors
@@ -26,20 +40,6 @@
 
   // border: 5px solid;
   // border-color: blue;
-}
-
-// Text on the Authors page
-#authors-text {
-  // margin-top: 1em;
-  margin-right: 1em;
-
-  float: right;
-  display: inline-block;
-
-  color: #333333;
-
-  // border: 5px solid;
-  // border-color: red;
 }
 
 #authors-text-cont {
