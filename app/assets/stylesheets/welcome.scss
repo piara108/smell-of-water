@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "index";
+@import "thebook";
+@import "authors";
+@import "events";
+@import "intheworks";
+@import "contact";
+@import "photos";
 
 // =====================Title and Menu Bar======================
 
@@ -16,21 +23,24 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  height: 100%;
+
+  font-family: "Georgia";
 
   overflow: auto;
-  font-family: "Georgia";
 }
 
 // The entire title and navigation menu bar
 .title-menu-bar {
   height: 100%;
-  width: 20em;
+  // width: 20em;
+  width: 25%;
 
-  margin-bottom: -5000px;
-  padding-bottom: 5000px;
+  // margin-bottom: -5000px;
+  // padding-bottom: 5000px;
 
-  float: left;
-  // position: fixed;
+  // float: left;
+  position: fixed;
 
   border: 1px solid;
   border-color: #292f33;;
@@ -143,8 +153,6 @@ li {
   border-color: #bbe5e2;
 }
 
-// ========================TheSplashPage========================
-
 // The social media images block
 .images-block {
   margin-left: 6em;
@@ -154,191 +162,4 @@ li {
 .image {
   height: 40px;
   width: 40px;
-}
-
-// Div for the body of the splash page
-.body-text {
-  margin-bottom: -5000px;
-  padding-bottom: 5000px;
-
-
-
-  overflow: auto;
-
-  // border: 5px solid;
-  // border-color: red;
-}
-
-#reader-reviews {
-  margin-bottom: 1em;
-  text-decoration: underline;
-}
-
-// Div for the reviews in the body
-.reviews {
-  margin-top: 2.5em;
-  margin-left: 2.25em;
-
-  float: center;
-  display:inline-block;
-
-  // border: 5px solid;
-  // border-color: blue;
-}
-
-// Div for image in the body
-.book-image {
-  height: 500px;
-  width: 332.28px;
-
-  margin-top: 3.5em;
-  margin-right: 3em;
-
-  float: right;
-  display: inline-block;
-
-  // border: 5px solid;
-  // border-color: orange;
-}
-
-// Spacing between lines
-.body-text p {
-  margin-bottom: 2.25em;
-}
-
-// ========================TheAuthorspage========================
-
-// Div for the Authors page content
-#authors-info {
-  // height: 100%;
-
-  margin-bottom: -2em;
-
-  // border: 5px solid;
-  // border-color: orange;
-}
-
-// Image of the authors
-#authors-pic {
-  height: 400px;
-  width: 318px;
-
-  padding-top: 1em;
-  padding-left: 1em;
-
-  // margin-top: 1em;
-  // margin-left: 1em;
-
-  float: center;
-  display: inline-block;
-
-  // border: 5px solid;
-  // border-color: blue;
-}
-
-// Text on the Authors page
-#authors-text {
-  // margin-top: 1em;
-  margin-right: 1em;
-
-  float: right;
-  display: inline-block;
-
-  color: #333333;
-
-  // border: 5px solid;
-  // border-color: red;
-}
-
-#authors-text-cont {
-  margin-top: 1em;
-  margin-left: 21.25em;
-
-  position: absolute;
-  bottom: 3em;
-
-  color: #333333;
-
-  // border: 5px solid;
-  // border-color: green;
-}
-
-// ======================ContactsPage======================
-
-#contact-info {
-  height: 5000px;
-  overflow: hidden;
-}
-
-#contact-pic {
-  float: left;
-  margin-left: 1.5em;
-  margin-top: 1.5em;
-}
-
-#caption-tag {
-  color: #333333;
-  text-align: center;
-}
-
-#contact-text {
-  width: 55%;
-
-  margin-top: 1.5em;
-  margin-right: 1.5em;
-
-  color: #333333;
-
-  line-height: 1.50em;
-
-  // margin-top: -1em;
-
-  // margin-left: 20em;
-  // border: 5px solid;
-  // border-color: blue;
-  float: right;
-  // position: fixed;
-  bottom: 15em;
-}
-
-a:link {
-  text-decoration: none;
-  color: #333333;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #333333;
-}
-
-
-// ================================The Book==============================
-
-#thebook-content {
-  // border: 2px solid blue;
-
-  overflow: auto;
-
-  // Image for The Book page
-  #thebook-pic {
-    float: left;
-    margin-top: 1.5em;
-    margin-right: -1em;
-    margin-left: 1em;
-  }
-
-  // Body content for The Book page
-  #thebook-text {
-    float: right;
-    width: 55%;
-    margin-top: .30em;
-    // margin-right: 5.25em;
-    padding: 0 .5em .5em .5em;
-    color: #333333;
-    line-height: 1.5em;
-
-    // border: 2px solid red;
-  }
-
-
 }

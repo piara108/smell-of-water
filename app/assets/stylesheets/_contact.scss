@@ -1,0 +1,47 @@
+// ======================ContactsPage======================
+
+#contact-info {
+  height: 5000px;
+  overflow: hidden;
+}
+
+#contact-pic {
+  float: left;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+}
+
+#caption-tag {
+  color: #333333;
+  text-align: center;
+}
+
+#contact-text {
+  width: 55%;
+
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+
+  color: #333333;
+
+  line-height: 1.50em;
+
+  // margin-top: -1em;
+
+  // margin-left: 20em;
+  // border: 5px solid;
+  // border-color: blue;
+  float: right;
+  // position: fixed;
+  bottom: 15em;
+}
+
+a:link {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333333;
+}

@@ -2,11 +2,6 @@
   <header class="title-bar">
     <div class="title">
       <%= link_to "Welcome to\nThe Smell\nof Water", root_path %>
-      <!-- <p>
-        Welcome to<br>
-        The Smell <br>
-        of Water
-      </p> -->
     </div>
   </header>
 
@@ -32,9 +27,9 @@
     <div class="contact-dash"></div>
 
     <div class="images-block">
-      <%= image_tag("email.png", :alt => "email", :class => "image") %>
+      <a href="mailto:thesmellofwaterbylsrey@gmail.com"><%=  image_tag("email.png", :alt => "email", :class => "image") %></a>
       <a href="https://www.facebook.com/The-Smell-of-Water-571867719588988/?ref=br_rs"><%= image_tag("facebook.png", :alt => "facebook", :class => "image") %></a>
-      <%= image_tag("twitter.png", :alt => "twitter", :class => "image") %>
+      <a href="https://twitter.com/thesmellofwater" target="_blank"><%= image_tag("twitter.png", :alt => "twitter", :class => "image") %></a>
     </div>
   </div>
 </div>

@@ -2,11 +2,6 @@
   <header class="title-bar">
     <div class="title">
       <%= link_to "Welcome to\nThe Smell\nof Water", root_path %>
-      <!-- <p>
-        Welcome to<br>
-        The Smell <br>
-        of Water
-      </p> -->
     </div>
   </header>
 
@@ -32,9 +27,9 @@
     <div class="contact-dash"></div>
 
     <div class="images-block">
-      <%= image_tag("email.png", :alt => "email", :class => "image") %>
+      <a href="mailto:thesmellofwaterbylsrey@gmail.com"><%=  image_tag("email.png", :alt => "email", :class => "image") %></a>
       <a href="https://www.facebook.com/The-Smell-of-Water-571867719588988/?ref=br_rs"><%= image_tag("facebook.png", :alt => "facebook", :class => "image") %></a>
-      <%= image_tag("twitter.png", :alt => "twitter", :class => "image") %>
+      <a href="https://twitter.com/thesmellofwater" target="_blank"><%= image_tag("twitter.png", :alt => "twitter", :class => "image") %></a>
     </div>
   </div>
 </div>
@@ -46,13 +41,13 @@
 
   <div id="thebook-text">
     <p>
-      1979, Cambodia, Eastern Zone:  Two comrades, twelve and fourteen, are
-      RUNNING to get away from their infantry unit before the invading
-      Vietnamese kill all of them. They reach the foot of a mountain - and
-      disappear into the jungle. Neither of them has any food or water.
-      They have no blankets, either, or protective clothing of any kind.
-      They have no matches, no medicine, no maps, no money, no compass, no
-      radio... they don't even know where they are.
+      1979, Cambodia, Eastern Zone:  Two comrades, twelve and fourteen,
+      are RUNNING to get away from their infantry unit before the
+      invading Vietnamese kill all of them. They reach the foot of a
+      mountain - and disappear into the jungle. Neither of them has any
+      food or water. They have no blankets, either, or protective clothing
+      of any kind. They have no matches, no medicine, no maps, no money,
+      no compass, no radio... they don't even know where they are.
     </p>
 
     <p>
@@ -80,9 +75,12 @@
     <p>
       You can purchase the book
       <%= link_to("https://www.amazon.com/Smell-Water-twelve-year-old-soldiers-determination/dp/0692407502/ref=sr_1_1?ie=UTF8&qid=1465704047&sr=8-1&keywords=the+smell+of+water", :target=>"_blank") do %>
-        <%= "here" %>.
+        <%= "here" %>
       <% end %>
-       If you would like a signed copy, please e-mail the authors here
+       and if you would like a signed copy, please e-mail the authors
+       <%= link_to("mailto:thesmellofwaterbylsrey@gmail.com", :target=>"_blank") do %>
+         <%= "here" %>.
+       <% end %>
     </p>
   </div>
 </div>

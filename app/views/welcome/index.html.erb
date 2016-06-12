@@ -2,11 +2,6 @@
   <header class="title-bar">
     <div class="title">
       <%= link_to "Welcome to\nThe Smell\nof Water", root_path %>
-      <!-- <p>
-        Welcome to<br>
-        The Smell <br>
-        of Water
-      </p> -->
     </div>
   </header>
 
@@ -40,8 +35,8 @@
   </div>
 </div>
 
-<div class="body-text">
-  <div class="reviews">
+<div id="body-text">
+  <div id="reviews">
     <p>
       “Masterfully written.”<br>
           &emsp;– Andy Martin, Executive Producer of "The Monkey Kid",<br>
@@ -74,7 +69,7 @@
     </p>
   </div>
 
-  <div class="book-image">
-    <%= image_tag("cover-of-sow.png", :alt => "cover-image", :class => "cover-image") %>
+  <div id="book-image">
+    <%= image_tag("cover-of-sow.png", :alt => "cover-image", :id => "cover-image") %>
   </div>
 </div>

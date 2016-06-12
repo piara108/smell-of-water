@@ -1,0 +1,46 @@
+// ================================The Book==============================
+
+$link-color-seafoam: #49c9ac;
+
+// Content for The Book page
+#thebook-content {
+  width: 75%;
+  float: right;
+
+  border: 2px solid blue;
+
+  // Image for The Book page
+  #book-pic {
+    float: left;
+
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 0em;
+
+    // border: 2px solid green;
+  }
+
+  // Body text content
+  #thebook-text {
+    float: right;
+
+    width: 60%;
+
+    margin-top: 1em;
+
+    padding-bottom: .55em;
+
+    color: #333333;
+    line-height: 1.5em;
+
+    border: 2px solid red;
+  }
+
+  a:link {
+    color: $link-color-seafoam;
+  }
+
+  a:visited {
+    color: $link-color-seafoam;
+  }
+}

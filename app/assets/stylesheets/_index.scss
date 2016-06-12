@@ -1,0 +1,58 @@
+// ===========================Index Page===========================
+
+#body-text {
+  overflow: hidden;
+  height: 100%;
+  float: right;
+  width: 74%;
+
+  // border: 5px solid;
+  // border-color: red;
+
+  // Div for the reviews in the body
+  #reviews {
+    margin-top: 2em;
+    // margin-left: 2.25em;
+
+    float: left;
+    // display:inline-block;
+
+    padding-left: 1em;
+
+    // border: 5px solid;
+    // border-color: blue;
+
+    p {
+      margin-top: 1em;
+      margin-bottom: 2.5em;
+
+      // border: 5px solid;
+      // border-color: green;
+    }
+  }
+
+  #reader-reviews {
+    margin-bottom: 1em;
+    text-decoration: underline;
+  }
+
+  // Div for image in the body
+  #book-image {
+    height: 500px;
+    width: 332.28px;
+
+    margin-top: 2em;
+    margin-right: 2em;
+
+    float: right;
+
+    // border: 5px solid;
+    // border-color: orange;
+  }
+}
+
+// Div for the body of the splash page
+#body-text {
+  // border: 5px solid;
+  // border-color: red;
+}
