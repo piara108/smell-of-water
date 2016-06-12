@@ -78,9 +78,11 @@
     </p>
 
     <p>
-      To purchase the book, click <%= link_to("here") %>.
-      If you would like a signed copy, please e-mail the authors.
-      <%= mail_to("TheSmellofWaterbyLSrey@gmail.com", name = nil, html_options = {:subject => "Hello!"} )%>.
+      You can purchase the book
+      <%= link_to("https://www.amazon.com/Smell-Water-twelve-year-old-soldiers-determination/dp/0692407502/ref=sr_1_1?ie=UTF8&qid=1465704047&sr=8-1&keywords=the+smell+of+water", :target=>"_blank") do %>
+        <%= "here" %>.
+      <% end %>
+       If you would like a signed copy, please e-mail the authors here
     </p>
   </div>
 </div>
