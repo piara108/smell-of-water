@@ -1,1 +1,86 @@
 // ========================Books In the Works======================
+
+@import "variables";
+
+#body-content {
+  float: right;
+  width: $body-content-width;
+
+  // border: $solid-border blue;
+
+  #title {
+    float: right;
+    width: 80%;
+
+    margin-top: 0em;
+    // margin-right: 5em;
+    margin-right: 9%;
+
+    font-size: 2em;
+    text-align: center;
+
+    // border: $solid-border green;
+  }
+
+  #events-content {
+    float: right;
+    width: 99.5%;
+
+    // border: $solid-border red;
+
+    #nfl-info {
+      // border: $solid-border gray;
+
+      display: inline-block;
+
+      #nfl-image {
+        float: left;
+        margin-left: 1em;
+
+        // border: $solid-border orange;
+      }
+
+      #nfl-text {
+        float: right;
+        width: 60%;
+        padding-right: 5%;
+        // border: $solid-border black;
+      }
+
+      p {
+        line-height: 1.5em;
+      }
+    }
+
+    #saginaw-info {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      display: inline-block;
+
+      // border: $solid-border teal;
+
+      #sag-image {
+        float: left;
+        margin-left: 1em;
+      }
+
+      #sag-text {
+        float: right;
+        width: 60%;
+        padding-right: 5%;
+
+        // border: $solid-border red;
+      }
+    }
+  }
+
+  p {
+    line-height: 1.5em;
+    color: $soft-black-font;
+  }
+
+  #update {
+    margin-left: 3em;
+    margin-bottom: 3em;
+  }
+}

@@ -11,7 +11,7 @@
   #title {
     float: right;
     width: 80%;
-    margin-top: 2em;
+    margin-top: 0em;
     margin-right: 5.5em;
 
     // border: $solid-border red;
@@ -32,5 +32,9 @@
     line-height: 1.5em;
 
     // border: $solid-border green;
+  }
+
+  p {
+    color: $soft-black-font
   }
 }

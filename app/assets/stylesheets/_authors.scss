@@ -15,8 +15,8 @@
 
   // Image of the authors
   #authors-pic {
-    height: 400px;
-    width: 318px;
+    // height: 400px;
+    // width: 318px;
 
     float: left;
 
@@ -29,9 +29,11 @@
   // Text on the Authors page
   #authors-text {
     float: right;
-    width: 62.5%;
+    width: 55%;
 
-    // margin-top: 1em;
+    padding-right: 3%;
+
+    line-height: $line-height;
 
     color: #333333;
 

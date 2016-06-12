@@ -1,13 +1,13 @@
 // ================================The Book==============================
 
-$link-color-seafoam: #49c9ac;
+@import "variables";
 
 // Content for The Book page
 #thebook-content {
-  width: 75%;
+  width: $body-content-width;
   float: right;
 
-  // border: 2px solid blue;
+  // border: $solid-border blue;
 
   // Image for The Book page
   #thebook-pic {
@@ -17,21 +17,22 @@ $link-color-seafoam: #49c9ac;
     margin-left: 1.5em;
     margin-right: 0em;
 
-    // border: 2px solid green;
+    // border: $solid-border green;
   }
 
   // Body text content
   #thebook-text {
-    width: 60%;
+    width: 63%;
     float: right;
 
     margin-top: 1em;
+    padding-right: 3em;
     padding-bottom: .55em;
 
-    color: #333333;
-    line-height: 1.5em;
+    color: $soft-black-font;
+    line-height: $line-height;
 
-    // border: 2px solid red;
+    // border: $solid-border red;
   }
 
   a:link {
