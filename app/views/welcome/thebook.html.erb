@@ -38,3 +38,49 @@
     </div>
   </div>
 </div>
+
+<div id="thebook-content">
+  <div id="thebook-pic">
+    <%= image_tag("cover-of-sow", :alt => 'cover-pic', :id => "book-pic") %>
+  </div>
+
+  <div id="thebook-text">
+    <p>
+      1979, Cambodia, Eastern Zone:  Two comrades, twelve and fourteen, are
+      RUNNING to get away from their infantry unit before the invading
+      Vietnamese kill all of them. They reach the foot of a mountain - and
+      disappear into the jungle. Neither of them has any food or water.
+      They have no blankets, either, or protective clothing of any kind.
+      They have no matches, no medicine, no maps, no money, no compass, no
+      radio... they don't even know where they are.
+    </p>
+
+    <p>
+      But these are the little problems. By getting themselves away from their
+      unit and from the Vietnamese, they've put themselves right in between the
+      two of them. If they can squeeze out, they don't know the terrain and
+      there's no way to get information - it's as though they've escaped to
+      some lost planet. Their plan had been to get back to where they'd last
+      seen their mothers, four years before. But they don't know if anyone in
+      their families is still alive. Only one thing is clear - neither one of
+      them will make it without the other.
+    </p>
+
+    <p>
+      As they rest under a banyan tree they contemplate their chances. And
+      suddenly, it's dark.
+    </p>
+
+    <p>
+      Lang Srey was the younger of the two boys. He is one of just a handful of
+      Khmer survivors of the Khmer Rouge genocide to have written a book-length
+      survivor's account.
+    </p>
+
+    <p>
+      To purchase the book, click <%= link_to("here") %>.
+      If you would like a signed copy, please e-mail the authors.
+      <%= mail_to("TheSmellofWaterbyLSrey@gmail.com", name = nil, html_options = {:subject => "Hello!"} )%>.
+    </p>
+  </div>
+</div>

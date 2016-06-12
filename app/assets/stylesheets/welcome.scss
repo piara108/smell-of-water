@@ -256,9 +256,6 @@ li {
 // ======================ContactsPage======================
 
 #contact-info {
-  border: 5px solid;
-  border-color: red;
-
   height: 5000px;
   overflow: hidden;
 }
@@ -294,18 +291,34 @@ li {
   bottom: 15em;
 }
 
-#cont-link {
-
-
-
-}
-
 a:link {
   text-decoration: none;
   color: #333333;
 }
 
 a:visited {
-    text-decoration: none;
-    color: #333333;
+  text-decoration: none;
+  color: #333333;
+}
+
+
+// ================================The Book==============================
+
+#thebook-pic {
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+}
+
+#thebook-content {
+  // border: 2px solid blue;
+}
+
+#thebook-text {
+  float: right;
+  width: 43%;
+  // border: 2px solid red;
+  margin-top: .30em;
+  margin-right: 1em;
+  padding: 0 .5em .5em .5em;
 }
