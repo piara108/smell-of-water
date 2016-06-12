@@ -1,47 +1,47 @@
 // ======================ContactsPage======================
 
+$link-color-seafoam: #49c9ac;
+
 #contact-info {
-  height: 5000px;
-  overflow: hidden;
-}
-
-#contact-pic {
-  float: left;
-  margin-left: 1.5em;
-  margin-top: 1.5em;
-}
-
-#caption-tag {
-  color: #333333;
-  text-align: center;
-}
-
-#contact-text {
-  width: 55%;
-
-  margin-top: 1.5em;
-  margin-right: 1.5em;
-
-  color: #333333;
-
-  line-height: 1.50em;
-
-  // margin-top: -1em;
-
-  // margin-left: 20em;
-  // border: 5px solid;
-  // border-color: blue;
   float: right;
-  // position: fixed;
-  bottom: 15em;
-}
+  width: 74%;
 
-a:link {
-  text-decoration: none;
-  color: #333333;
-}
+  // border: 1px solid blue;
 
-a:visited {
-  text-decoration: none;
-  color: #333333;
+  #contact-pic {
+    float: left;
+    width: 20%;
+
+    margin-top: 1.5em;
+    margin-left: 1em;
+  }
+
+  #contact-text {
+    float: right;
+    width: 59.5%;
+
+    margin-top: 1.5em;
+    margin-right: .75em;
+
+    color: #333333;
+    line-height: 1.50em;
+
+    // border: 1px solid red;
+  }
+
+  #caption-tag {
+    width: 175%;
+    color: #333333;
+    text-align: center;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: $link-color-seafoam;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: $link-color-seafoam;
+  }
 }

@@ -7,7 +7,7 @@ $link-color-seafoam: #49c9ac;
   width: 75%;
   float: right;
 
-  border: 2px solid blue;
+  // border: 2px solid blue;
 
   // Image for The Book page
   #book-pic {
@@ -22,18 +22,16 @@ $link-color-seafoam: #49c9ac;
 
   // Body text content
   #thebook-text {
+    width: 60%;
     float: right;
 
-    width: 60%;
-
     margin-top: 1em;
-
     padding-bottom: .55em;
 
     color: #333333;
     line-height: 1.5em;
 
-    border: 2px solid red;
+    // border: 2px solid red;
   }
 
   a:link {
