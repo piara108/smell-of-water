@@ -10,7 +10,7 @@ $link-color-seafoam: #49c9ac;
   // border: 2px solid blue;
 
   // Image for The Book page
-  #book-pic {
+  #thebook-pic {
     float: left;
 
     margin-top: 1.5em;
@@ -35,10 +35,12 @@ $link-color-seafoam: #49c9ac;
   }
 
   a:link {
+    text-decoration: none;
     color: $link-color-seafoam;
   }
 
   a:visited {
+    text-decoration: none;
     color: $link-color-seafoam;
   }
 }
