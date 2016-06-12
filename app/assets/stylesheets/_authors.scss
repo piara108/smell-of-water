@@ -1,56 +1,55 @@
+@import "variables";
+
 // ========================TheAuthorspage========================
 
 // Div for the Authors page content
 #authors-info {
-  // height: 100%;
+  float: right;
 
-  margin-bottom: -2em;
+  height: 100%;
+  width: 75%;
 
-  // border: 5px solid;
-  // border-color: orange;
+  overflow-y: auto;
+
+  // border: $solid-border orange;
+
+  // Image of the authors
+  #authors-pic {
+    height: 400px;
+    width: 318px;
+
+    float: left;
+
+    margin-top: 1em;
+    margin-left: 1em;
+
+    // border: $solid-border blue;
+  }
 
   // Text on the Authors page
   #authors-text {
-    // margin-top: 1em;
-    margin-right: 1em;
-
     float: right;
-    display: inline-block;
+    width: 62.5%;
+
+    // margin-top: 1em;
 
     color: #333333;
 
-    // border: 5px solid;
-    // border-color: red;
+    // border: $solid-border red;
   }
 }
 
-// Image of the authors
-#authors-pic {
-  height: 400px;
-  width: 318px;
 
-  padding-top: 1em;
-  padding-left: 1em;
 
-  // margin-top: 1em;
-  // margin-left: 1em;
-
-  float: center;
-  display: inline-block;
-
-  // border: 5px solid;
-  // border-color: blue;
-}
-
-#authors-text-cont {
-  margin-top: 1em;
-  margin-left: 21.25em;
-
-  position: absolute;
-  bottom: 3em;
-
-  color: #333333;
-
-  // border: 5px solid;
-  // border-color: green;
-}
+// #authors-text-cont {
+//   margin-top: 1em;
+//   margin-left: 21.25em;
+//
+//   position: absolute;
+//   bottom: 3em;
+//
+//   color: #333333;
+//
+//   // border: 5px solid;
+//   // border-color: green;
+// }

@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "variables";
+
 @import "index";
 @import "thebook";
 @import "authors";
@@ -14,30 +16,25 @@
 
 // Removes the 'bounce' on the page
 html {
+  height: 100%;
   overflow: hidden;
 }
 
 // Removes margins on all sides
 body {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
   height: 100%;
+  overflow: auto;
+
+  margin: 0;
+  padding: 0;
 
   font-family: "Georgia";
-
-  overflow: auto;
 }
 
 // The entire title and navigation menu bar
 .title-menu-bar {
   height: 100%;
-  // width: 20em;
-  width: 25%;
-
-  // margin-bottom: -5000px;
-  // padding-bottom: 5000px;
+  width: $navbar-width;
 
   float: left;
   position: fixed;
@@ -131,16 +128,6 @@ li {
   text-decoration: none;
   color: #bbe5e2;
 }
-
-// .photos a:link {
-//   text-decoration: none;
-//   color: #bbe5e2;
-// }
-//
-// .photos a:visited {
-//   text-decoration: none;
-//   color: #bbe5e2;
-// }
 
 // Dash above the social media icons
 .contact-dash {
