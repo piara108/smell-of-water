@@ -1,1 +1,36 @@
 // ============================Events============================
+
+@import "variables";
+
+#event-content {
+  float: right;
+  width: $body-content-width;
+
+  // border: $solid-border blue;
+
+  #title {
+    float: right;
+    width: 80%;
+    margin-top: 2em;
+    margin-right: 5.5em;
+
+    // border: $solid-border red;
+
+    p {
+      text-align: center;
+      font-size: 2em;
+
+      margin-bottom: -.25em;
+    }
+  }
+
+  #body-text {
+    width: 80%;
+    margin-top: 2em;
+    margin-right: 5.5em;
+
+    line-height: 1.5em;
+
+    // border: $solid-border green;
+  }
+}
