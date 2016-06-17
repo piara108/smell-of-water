@@ -151,3 +151,18 @@ li {
   height: 40px;
   width: 40px;
 }
+
+#photos-content {
+  float: right;
+
+  border: 2px solid red;
+  width: 74.5%;
+
+  #coming-soon {
+    // margin-left:
+    float: left;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    font-size: 3em;
+  }
+}
