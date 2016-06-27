@@ -1,0 +1,21 @@
+// ======================Photos Page======================
+
+@import 'variables';
+
+#photos-content {
+  float: right;
+  width: $body-content-width;
+
+  // border: $solid-border red;
+
+  #coming-soon {
+    float: left;
+    margin-top: 1.5em;
+    margin-left: 2em;
+
+    color: $soft-black-font;
+    font-size: 3em;
+
+    // border: $solid-border blue;
+  }
+}
