@@ -1,13 +1,14 @@
-// ===========================Index Page===========================
+// ======================Splash(Index) Page======================
+
+@import 'variables';
 
 #body-text {
   overflow: hidden;
   height: 100%;
   float: right;
-  width: 74%;
+  width: $body-content-width;
 
-  // border: 5px solid;
-  // border-color: red;
+  // border: $solid-border red;
 
   // Div for the reviews in the body
   #reviews {
@@ -19,15 +20,13 @@
 
     padding-left: 1em;
 
-    // border: 5px solid;
-    // border-color: blue;
+    // border: $solid-border blue;
 
     p {
       margin-top: 1em;
       margin-bottom: 2.5em;
 
-      // border: 5px solid;
-      // border-color: green;
+      // border: $solid-border green;
     }
   }
 
@@ -46,13 +45,11 @@
 
     float: right;
 
-    // border: 5px solid;
-    // border-color: orange;
+    // border: $solid-border orange;
   }
 }
 
 // Div for the body of the splash page
 #body-text {
-  // border: 5px solid;
-  // border-color: red;
+  // border: $solid-border red;
 }
