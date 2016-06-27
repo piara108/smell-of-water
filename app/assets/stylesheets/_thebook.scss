@@ -1,4 +1,4 @@
-// ================================The Book==============================
+// ======================The Book Page======================
 
 @import "variables";
 
@@ -43,5 +43,9 @@
   a:visited {
     text-decoration: none;
     color: $link-color-seafoam;
+  }
+
+  span {
+    font-style: italic;
   }
 }
