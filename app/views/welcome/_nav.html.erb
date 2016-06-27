@@ -1,0 +1,35 @@
+<div class="title-menu-bar">
+  <header class="title-bar">
+    <div class="title">
+      <%= link_to "Welcome to\nThe Smell\nof Water", root_path %>
+    </div>
+  </header>
+
+  <div class="menu-bar">
+    <div class="top-dash"></div>
+
+    <nav class="navigation-menu">
+      <ul class="links">
+        <li><%= link_to "The Book", thebook_url%></li>
+        <li><%= link_to "The Authors", authors_url %><li>
+        <li><%= link_to "Events", events_url %></li>
+        <li><%= link_to "Books in the Works", intheworks_url %></li>
+        <li><%= link_to "Contact Us", contact_url %></li>
+      </ul>
+    </nav>
+
+    <div class="bottom-dash"></div>
+
+    <ul class="photos">
+      <li><%= link_to "Photos", photos_url %></li>
+    </ul>
+
+    <div class="contact-dash"></div>
+
+    <div class="images-block">
+      <a href="mailto:TheSmellofWaterbyLSrey@gmail.com"><%=  image_tag("email.png", :alt => "email", :class => "image") %></a>
+      <a href="https://www.facebook.com/The-Smell-of-Water-571867719588988/?ref=br_rs" target="_blank"><%= image_tag("facebook.png", :alt => "facebook", :class => "image") %></a>
+      <a href="https://twitter.com/thesmellofwater" target="_blank"><%= image_tag("twitter.png", :alt => "twitter", :class => "image") %></a>
+    </div>
+  </div>
+</div>
