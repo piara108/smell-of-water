@@ -1,4 +1,4 @@
-// ========================TheAuthorspage========================
+// ======================The Authors Page======================
 
 @import "variables";
 
@@ -7,7 +7,7 @@
   float: right;
 
   height: 100%;
-  width: 75%;
+  width: $body-content-width;
 
   overflow-y: auto;
 
