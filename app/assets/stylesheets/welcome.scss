@@ -2,17 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import "variables";
-
-@import "index";
-@import "thebook";
-@import "authors";
-@import "events";
-@import "intheworks";
-@import "contact";
-@import "photos";
+@import 'index';
+@import 'thebook';
+@import 'authors';
+@import 'events';
+@import 'intheworks';
+@import 'contact';
+@import 'photos';
 
 // =====================Title and Menu Bar======================
+
+@import 'variables';
 
 // Removes the 'bounce' on the page
 html {
@@ -39,7 +39,7 @@ body {
   float: left;
   position: fixed;
 
-  border: 1px solid;
+  border: $solid-border;
   border-color: #292f33;;
   background-color: #292f33;
   font-family: "Times New Roman";
@@ -51,14 +51,14 @@ body {
 
 // The text of the title
 .title {
+  display: center;
+
   margin-top: 1em;
   margin-left: 1.5em;
   margin-bottom: 3em;
 
   font-size: 2.5em;
-  color: #bbe5e2;
-
-  display: center;
+  color: $menu-text-color;
 }
 
 .menu-bar {
@@ -73,14 +73,14 @@ body {
   margin-bottom: 1.5em;
 
   border-top: .12em solid;
-  border-color: #bbe5e2;
+  border-color: $menu-text-color;
 }
 
 // The nav menu box
 .navigation-menu {
-  background-color: #292f33;
-
   margin-left: 1.5em;
+
+  background-color: #292f33;
 }
 
 // A little line below the menu items
@@ -92,7 +92,7 @@ body {
   margin-bottom: 1.5em;
 
   border-bottom : .12em solid;
-  border-color: #bbe5e2;
+  border-color: $menu-text-color;
 }
 
 .photos {
@@ -103,30 +103,29 @@ body {
 // The links and the images list
 ul {
   width: 10em;
-
-  // border: 2px solid;
-  // border-color: white;
-
   float: center;
+
+  // border: $solid-border white;
 }
 
 // The list items in the nav menu
 li {
   list-style-type: none;
   vertical-align: center;
+
   font-size: 1.25em;
+  color: $menu-text-color;
   line-height: 1.5em;
-  color: #bbe5e2;
 }
 
 .title-menu-bar a:link {
   text-decoration: none;
-  color: #bbe5e2;
+  color: $menu-text-color;
 }
 
 .title-menu-bar a:visited {
   text-decoration: none;
-  color: #bbe5e2;
+  color: $menu-text-color;
 }
 
 // Dash above the social media icons
@@ -138,7 +137,7 @@ li {
   margin-bottom: 2.25em;
 
   border-bottom : .12em solid;
-  border-color: #bbe5e2;
+  border-color: $menu-text-color;
 }
 
 // The social media images block
@@ -150,18 +149,4 @@ li {
 .image {
   height: 40px;
   width: 40px;
-}
-
-#photos-content {
-  float: right;
-
-  // border: 2px solid red;
-  width: 74.5%;
-
-  #coming-soon {
-    float: left;
-    margin-top: 1.5em;
-    margin-left: 2em;
-    font-size: 3em;
-  }
 }
