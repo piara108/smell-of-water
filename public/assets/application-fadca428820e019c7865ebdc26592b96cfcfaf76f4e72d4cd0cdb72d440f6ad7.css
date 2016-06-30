@@ -1,0 +1,650 @@
+/* line 6, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_authors.scss */
+#authors-info {
+  float: right;
+  height: 100%;
+  width: 74.5%;
+  overflow-y: auto;
+}
+/* line 17, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_authors.scss */
+#authors-info #authors-pic {
+  float: left;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+/* line 30, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_authors.scss */
+#authors-info #authors-text {
+  float: right;
+  width: 58%;
+  margin-top: 0em;
+  padding-right: 3%;
+  line-height: 1.5em;
+  color: #333333;
+}
+/* line 7, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info {
+  float: right;
+  width: 74.5%;
+}
+/* line 13, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info #contact-pic {
+  float: left;
+  width: 20%;
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+/* line 21, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info #contact-text {
+  float: right;
+  width: 59.5%;
+  margin-top: 0.5em;
+  margin-right: .75em;
+  color: #333333;
+  line-height: 1.50em;
+}
+/* line 34, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info #caption-tag {
+  width: 175%;
+  color: #333333;
+  text-align: center;
+}
+/* line 40, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info a:link {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 45, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info a:visited {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 50, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info span {
+  font-style: italic;
+}
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content {
+  float: right;
+  width: 74.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content #title {
+  float: right;
+  width: 80%;
+  margin-top: 0em;
+  margin-right: 5.5em;
+}
+/* line 19, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content #title p {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: -.25em;
+}
+/* line 27, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content #body-text {
+  width: 80%;
+  margin-top: 2em;
+  margin-right: 5.5em;
+  line-height: 1.5em;
+}
+/* line 37, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content p {
+  color: #333333;
+}
+/* line 41, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content span {
+  font-weight: bold;
+  color: #333333;
+}
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text {
+  overflow: hidden;
+  height: 100%;
+  float: right;
+  width: 74.5%;
+}
+/* line 14, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reviews {
+  margin-top: 2em;
+  float: left;
+  padding-left: 1em;
+}
+/* line 25, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reviews p {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+/* line 32, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reviews p span {
+  font-style: italic;
+}
+/* line 37, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reader-reviews {
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #book-image {
+  height: 500px;
+  width: 332.28px;
+  margin-top: 2em;
+  margin-right: 2em;
+  float: right;
+}
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content {
+  float: right;
+  width: 74.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #title {
+  float: right;
+  width: 80%;
+  margin-top: 0em;
+  margin-right: 9%;
+  font-size: 2em;
+  text-align: center;
+}
+/* line 25, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content {
+  float: right;
+  width: 99.5%;
+}
+/* line 31, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info {
+  display: inline-block;
+}
+/* line 36, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info #nfl-image {
+  float: left;
+  margin-left: 1em;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info #nfl-text {
+  float: right;
+  width: 60%;
+  padding-right: 5%;
+}
+/* line 50, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info p {
+  line-height: 1.5em;
+}
+/* line 55, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #saginaw-info {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+/* line 62, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #saginaw-info #sag-image {
+  float: left;
+  margin-left: 1em;
+}
+/* line 67, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #saginaw-info #sag-text {
+  float: right;
+  width: 60%;
+  padding-right: 5%;
+}
+/* line 77, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content p {
+  line-height: 1.5em;
+  color: #333333;
+}
+/* line 82, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #update {
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+/* line 87, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #color-line {
+  color: #0ea7b5;
+  font-style: italic;
+}
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_photos.scss */
+#photos-content {
+  float: right;
+  width: 74.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_photos.scss */
+#photos-content #coming-soon {
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 2em;
+  color: #333333;
+  font-size: 3em;
+}
+/* line 6, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content {
+  width: 74.5%;
+  float: right;
+}
+/* line 13, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content #thebook-pic {
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 0em;
+}
+/* line 24, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content #thebook-text {
+  width: 56%;
+  float: right;
+  margin-top: 0em;
+  padding-right: 2em;
+  padding-bottom: .55em;
+  color: #333333;
+  line-height: 1.5em;
+}
+/* line 38, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content a:link {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content a:visited {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 48, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content span {
+  font-style: italic;
+}
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text {
+  overflow: hidden;
+  height: 100%;
+  float: right;
+  width: 74.5%;
+}
+/* line 14, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reviews {
+  margin-top: 2em;
+  float: left;
+  padding-left: 1em;
+}
+/* line 25, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reviews p {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+/* line 32, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reviews p span {
+  font-style: italic;
+}
+/* line 37, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #reader-reviews {
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_index.scss */
+#body-text #book-image {
+  height: 500px;
+  width: 332.28px;
+  margin-top: 2em;
+  margin-right: 2em;
+  float: right;
+}
+
+/* line 6, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content {
+  width: 74.5%;
+  float: right;
+}
+/* line 13, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content #thebook-pic {
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 0em;
+}
+/* line 24, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content #thebook-text {
+  width: 56%;
+  float: right;
+  margin-top: 0em;
+  padding-right: 2em;
+  padding-bottom: .55em;
+  color: #333333;
+  line-height: 1.5em;
+}
+/* line 38, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content a:link {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content a:visited {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 48, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_thebook.scss */
+#thebook-content span {
+  font-style: italic;
+}
+
+/* line 6, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_authors.scss */
+#authors-info {
+  float: right;
+  height: 100%;
+  width: 74.5%;
+  overflow-y: auto;
+}
+/* line 17, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_authors.scss */
+#authors-info #authors-pic {
+  float: left;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+/* line 30, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_authors.scss */
+#authors-info #authors-text {
+  float: right;
+  width: 58%;
+  margin-top: 0em;
+  padding-right: 3%;
+  line-height: 1.5em;
+  color: #333333;
+}
+
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content {
+  float: right;
+  width: 74.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content #title {
+  float: right;
+  width: 80%;
+  margin-top: 0em;
+  margin-right: 5.5em;
+}
+/* line 19, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content #title p {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: -.25em;
+}
+/* line 27, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content #body-text {
+  width: 80%;
+  margin-top: 2em;
+  margin-right: 5.5em;
+  line-height: 1.5em;
+}
+/* line 37, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content p {
+  color: #333333;
+}
+/* line 41, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_events.scss */
+#event-content span {
+  font-weight: bold;
+  color: #333333;
+}
+
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content {
+  float: right;
+  width: 74.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #title {
+  float: right;
+  width: 80%;
+  margin-top: 0em;
+  margin-right: 9%;
+  font-size: 2em;
+  text-align: center;
+}
+/* line 25, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content {
+  float: right;
+  width: 99.5%;
+}
+/* line 31, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info {
+  display: inline-block;
+}
+/* line 36, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info #nfl-image {
+  float: left;
+  margin-left: 1em;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info #nfl-text {
+  float: right;
+  width: 60%;
+  padding-right: 5%;
+}
+/* line 50, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #nfl-info p {
+  line-height: 1.5em;
+}
+/* line 55, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #saginaw-info {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+/* line 62, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #saginaw-info #sag-image {
+  float: left;
+  margin-left: 1em;
+}
+/* line 67, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #events-content #saginaw-info #sag-text {
+  float: right;
+  width: 60%;
+  padding-right: 5%;
+}
+/* line 77, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content p {
+  line-height: 1.5em;
+  color: #333333;
+}
+/* line 82, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #update {
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+/* line 87, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_intheworks.scss */
+#body-content #color-line {
+  color: #0ea7b5;
+  font-style: italic;
+}
+
+/* line 7, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info {
+  float: right;
+  width: 74.5%;
+}
+/* line 13, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info #contact-pic {
+  float: left;
+  width: 20%;
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+/* line 21, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info #contact-text {
+  float: right;
+  width: 59.5%;
+  margin-top: 0.5em;
+  margin-right: .75em;
+  color: #333333;
+  line-height: 1.50em;
+}
+/* line 34, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info #caption-tag {
+  width: 175%;
+  color: #333333;
+  text-align: center;
+}
+/* line 40, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info a:link {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 45, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info a:visited {
+  text-decoration: none;
+  color: #49c9ac;
+}
+/* line 50, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_contact.scss */
+#contact-info span {
+  font-style: italic;
+}
+
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_photos.scss */
+#photos-content {
+  float: right;
+  width: 74.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/_photos.scss */
+#photos-content #coming-soon {
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 2em;
+  color: #333333;
+  font-size: 3em;
+}
+
+/* line 18, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 24, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia";
+}
+
+/* line 35, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.title-menu-bar {
+  height: 100%;
+  width: 25%;
+  float: left;
+  position: fixed;
+  border: 1px solid;
+  border-color: #292f33;
+  background-color: #292f33;
+  font-family: "Times New Roman";
+}
+
+/* line 48, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.title-bar {
+  margin-bottom: -5em;
+}
+
+/* line 53, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.title {
+  display: center;
+  margin-top: 1em;
+  margin-left: 1.5em;
+  margin-bottom: 3em;
+  font-size: 2.5em;
+  color: #bbe5e2;
+}
+
+/* line 64, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.menu-bar {
+  height: 15em;
+}
+
+/* line 69, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.top-dash {
+  width: 3em;
+  margin-left: 43.5%;
+  margin-bottom: 1.5em;
+  border-top: .12em solid;
+  border-color: #bbe5e2;
+}
+
+/* line 80, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.navigation-menu {
+  margin-left: 1.5em;
+  background-color: #292f33;
+}
+
+/* line 87, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.bottom-dash {
+  width: 3em;
+  margin-top: 1.5em;
+  margin-left: 43.5%;
+  margin-bottom: 1.5em;
+  border-bottom: .12em solid;
+  border-color: #bbe5e2;
+}
+
+/* line 98, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.photos {
+  margin-left: 6em;
+  margin-bottom: -1.25em;
+}
+
+/* line 104, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+ul {
+  width: 10em;
+  float: center;
+}
+
+/* line 112, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+li {
+  list-style-type: none;
+  vertical-align: center;
+  font-size: 1.25em;
+  color: #bbe5e2;
+  line-height: 1.5em;
+}
+
+/* line 121, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.title-menu-bar a:link {
+  text-decoration: none;
+  color: #bbe5e2;
+}
+
+/* line 126, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.title-menu-bar a:visited {
+  text-decoration: none;
+  color: #bbe5e2;
+}
+
+/* line 132, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.contact-dash {
+  width: 12em;
+  margin-top: 3em;
+  margin-left: 4em;
+  margin-bottom: 2.25em;
+  border-bottom: .12em solid;
+  border-color: #bbe5e2;
+}
+
+/* line 144, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.images-block {
+  margin-left: 6em;
+}
+
+/* line 149, /Users/Piara/Documents/Programming/GitHub Stuff/smell-of-water/app/assets/stylesheets/welcome.scss */
+.image {
+  height: 40px;
+  width: 40px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
