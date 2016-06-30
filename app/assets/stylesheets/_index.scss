@@ -28,6 +28,10 @@
 
       // border: $solid-border green;
     }
+
+    p span {
+      font-style: italic;
+    }
   }
 
   #reader-reviews {
@@ -47,9 +51,4 @@
 
     // border: $solid-border orange;
   }
-}
-
-// Div for the body of the splash page
-#body-text {
-  // border: $solid-border red;
 }
